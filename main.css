@@ -1,11 +1,45 @@
 .flex-container1 {
   display: flex;
   justify-content: space-evenly;
-  gap: 1px;
+  flex-wrap: nowrap;
+  gap: 2px;
 }
 
 .flex-container2 {
   display: flex;
   justify-content: space-evenly;
-  gap: 1px;
+  gap: 2px;
+  flex-wrap: nowrap;
+}
+
+.card {
+  display: flex;
+  border: 1px solid lightblue;
+}
+
+.title {
+  border: 1px solid lightblue;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.second-section > p {
+  font-weight: bold;
+}
+
+.third-section > p {
+  font-weight: bold;
+}
+
+.availability {
+  color: yellow;
+  background-color: gray;
+}
+
+img {
+  width:100px;
+  height:100px;
 }
